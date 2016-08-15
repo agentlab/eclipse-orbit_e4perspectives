@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_y6D_YLoOEeGpCLi1m273mw">
+  <imports xsi:type="basic:Part" xmi:id="_3Yl1UGLYEeaR0YjiFBz5Cg" elementId="org.test.ui2.parts.SampleView2"/>
+  <imports xsi:type="basic:Part" xmi:id="_HdmlgGLjEeaR0YjiFBz5Cg" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_18RMILoOEeGpCLi1m273mw" featurename="snippets" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="advanced:Perspective" xmi:id="_eQFFIFP4EeaszJGFnlBYaQ" elementId="org.test.ui.perspective.withprojectexplorer" selectedElement="_m6WGkFP4EeaszJGFnlBYaQ" label="PerspectiveWithProjectexplorer" iconURI="platform:/plugin/org.test.ui.perspective.withextpart/icons/Sample.png">
+      <tags>project</tags>
+      <tags>default</tags>
+      <tags>user</tags>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_m6WGkFP4EeaszJGFnlBYaQ" elementId="org.test.ui.perspective.withprojectexplorer.partsashcontainer.1" selectedElement="_BN-7YGCPEeaw7-Ls1RWo5w" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_BN-7YGCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withprojectexplorer.partstack.1" selectedElement="_uXBnAGMAEeaR0YjiFBz5Cg">
+          <children xsi:type="advanced:Placeholder" xmi:id="_uXBnAGMAEeaR0YjiFBz5Cg" elementId="org.test.ui.perspective.withprojectexplorer.placeholder.11" closeable="true">
+            <ref xsi:type="basic:Part" href="../org.test.ui/fragment.e4xmi#_3Yl1UGLYEeaR0YjiFBz5Cg"/>
+          </children>
+          <children xsi:type="advanced:Placeholder" xmi:id="_RVMLIGLiEeaR0YjiFBz5Cg" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_HdmlgGLjEeaR0YjiFBz5Cg" closeable="true"/>
+        </children>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_nrLGkFP4EeaszJGFnlBYaQ" elementId="org.test.ui.perspective.withprojectexplorer.partsashcontainer.2">
+          <children xsi:type="basic:PartStack" xmi:id="_x0Qi4GMAEeaR0YjiFBz5Cg" elementId="org.test.ui.perspective.withprojectexplorer.partstack.0" selectedElement="_x0Qi4WMAEeaR0YjiFBz5Cg">
+            <children xsi:type="advanced:Placeholder" xmi:id="_x0Qi4WMAEeaR0YjiFBz5Cg" elementId="org.test.ui.perspective.withprojectexplorer.placeholder.21" ref="_3Yl1UGLYEeaR0YjiFBz5Cg" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_x0Qi4mMAEeaR0YjiFBz5Cg" elementId="org.test.ui.perspective.withprojectexplorer.placeholder.22" ref="_3Yl1UGLYEeaR0YjiFBz5Cg" closeable="true"/>
+          </children>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+</fragment:ModelFragments>

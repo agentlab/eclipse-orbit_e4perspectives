@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_y6D_YLoOEeGpCLi1m273mw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HSMw4FS4Eeacy4vmBL0tEQ" featurename="sharedElements" parentElementId="IDEWindow">
+    <elements xsi:type="basic:Part" xmi:id="_VdntwFS4Eeacy4vmBL0tEQ" elementId="org.test.ui.parts.ExternalView" contributionURI="bundleclass://org.test.ui/org.test.ui.parts.SampleView2" label="ExternalView" iconURI="platform:/plugin/org.test.ui/icons/Sample.png" closeable="true"/>
+  </fragments>
+</fragment:ModelFragments>

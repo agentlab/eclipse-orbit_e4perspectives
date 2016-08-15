@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmi:id="_y6D_YLoOEeGpCLi1m273mw">
+  <imports xsi:type="basic:Part" xmi:id="_3Yl1UGLYEeaR0YjiFBz5Cg" elementId="org.test.ui.parts.ExternalView"/>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_18RMILoOEeGpCLi1m273mw" featurename="snippets" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="advanced:Perspective" xmi:id="_eQFFIFP4EeaszJGFnlBYaQ" elementId="org.test.ui.perspective.withextpart" selectedElement="_m6WGkFP4EeaszJGFnlBYaQ" label="PerspectiveWithExtPart" iconURI="platform:/plugin/org.test.ui.perspective.withextpart/icons/Sample.png">
+      <tags>project</tags>
+      <tags>default</tags>
+      <tags>user</tags>
+      <children xsi:type="basic:PartSashContainer" xmi:id="_m6WGkFP4EeaszJGFnlBYaQ" elementId="org.test.ui.perspective.withextpart.partsashcontainer.1" selectedElement="_nrLGkFP4EeaszJGFnlBYaQ" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_BN-7YGCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.partstack.1" selectedElement="_nSrP8GCOEeaw7-Ls1RWo5w">
+          <children xsi:type="advanced:Placeholder" xmi:id="_rOu10GCOEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.11" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_nSrP8GCOEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.12" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_zP3scGLYEeaR0YjiFBz5Cg" elementId="org.test.ui.perspective.withextpart.placeholder.13" ref="_3Yl1UGLYEeaR0YjiFBz5Cg" closeable="true"/>
+        </children>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_nrLGkFP4EeaszJGFnlBYaQ" elementId="org.test.ui.perspective.withextpart.partsashcontainer.2" selectedElement="_yCEK0GCOEeaw7-Ls1RWo5w">
+          <children xsi:type="basic:PartStack" xmi:id="_yCEK0GCOEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.partstack.0" selectedElement="_uQGzMFP4EeaszJGFnlBYaQ">
+            <children xsi:type="advanced:Placeholder" xmi:id="_uQGzMFP4EeaszJGFnlBYaQ" elementId="org.test.ui.perspective.withextpart.placeholder.21" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_lFZgEGCOEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.22" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_QkvC8GCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.23" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_Nvt9oGCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.partstack.2">
+            <children xsi:type="advanced:Placeholder" xmi:id="_OU2rAGCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.31" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_U3_n4GCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.32" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_U9fL4GCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.33" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+            <children xsi:type="advanced:Placeholder" xmi:id="_VCg10GCPEeaw7-Ls1RWo5w" elementId="org.test.ui.perspective.withextpart.placeholder.34" ref="_VdntwFS4Eeacy4vmBL0tEQ" closeable="true"/>
+          </children>
+        </children>
+      </children>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_HSMw4FS4Eeacy4vmBL0tEQ" featurename="sharedElements" parentElementId="IDEWindow">
+    <elements xsi:type="basic:Part" xmi:id="_VdntwFS4Eeacy4vmBL0tEQ" elementId="org.test.ui.perspective.withextpart.InternalView" contributionURI="bundleclass://org.test.ui.perspective.withextpart/org.test.ui.perspective.withextpart.SampleView" label="InternalView" iconURI="platform:/plugin/org.test.ui.perspective.withextpart/icons/Sample.png" closeable="true"/>
+  </fragments>
+</fragment:ModelFragments>
